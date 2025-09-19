@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transport Privé Driss</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000; /* Fond noir */
+      color: #fff;
+    }
+    .card {
+      width: 95%;
+      max-width: 500px; /* Dashboard plus grand */
+      padding: 30px;
+      background: #111; /* Gris très foncé pour contraster */
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(255,255,255,0.15);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 1.8em;
+    }
+    p {
+      margin: 8px 0;
+      font-size: 1.1em;
+    }
+    a {
+      color: #1e90ff; /* liens bleus pour contraste */
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a.button {
+      display: block;
+      margin: 15px auto;
+      padding: 14px;
+      background: #fff;   /* bouton blanc */
+      color: #000;        /* texte noir */
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      width: 80%;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: #ddd;
+    }
+    img {
+      width: 250px;
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Transport Privé Driss</h1>
+    <p><strong>Téléphone :</strong> <a href="tel:+33638023515">+33 6 38 02 35 15</a></p>
+    <p><strong>Email :</strong> <a href="mailto:rmdtransport.prive@gmail.com">rmdtransport.prive@gmail.com</a></p>
+    <p><strong>WhatsApp :</strong> <a href="https://wa.me/33638023515">Transport Privé Driss</a></p>
+
+    <!-- QR Code pour ajouter directement le contact -->
+    <img src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=BEGIN%3AVCARD%0AVERSION%3A3.0%0AN%3A%3BTransport%20Priv%C3%A9%20Driss%3B%3B%3B%0AFN%3ATransport%20Priv%C3%A9%20Driss%0AORG%3ATransport%20Priv%C3%A9%20Driss%0ATEL%3BTYPE%3DCELL%3A%2B33638023515%0AEMAIL%3Armdtransport.prive%40gmail.com%0ANOTE%3AWhatsApp%3A%20Transport%20Priv%C3%A9%20Driss%0AEND%3AVCARD" alt="QR Code vCard">
+
+    <!-- Fichier vCard à télécharger -->
+    <a class="button" href="Transport_Privé_Driss.vcf" download>📥 Télécharger le contact</a>
+  </div>
+</body>
+</html>
